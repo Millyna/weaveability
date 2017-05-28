@@ -1,0 +1,553 @@
+/* ---------- FONTS ---------- */
+h1 h2 h3 h4 h5 h6 {
+    font-family: 'Open Sans', 'Calibri Light', Calibri, Arial !important;
+    letter-spacing: 1px !important;
+}
+
+p {
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    font-size: 25px;
+}
+
+a {
+    font-family: 'Open Sans', 'Calibri Light', Calibri, Arial !important;
+    letter-spacing: 1px !important;
+}
+
+/* ---------- DIVS ---------- */
+#left {
+    float: left;
+    width: 100px !important;
+}
+
+#right {
+    float: right;
+    width: 100px !important;
+}
+
+/* BODY CONTENT */
+
+#topContent {
+    font-family: 'Open Sans', 'Calibri Light', Calibri, Arial !important;
+    letter-spacing: 1px !important;
+    text-align: center;
+}
+
+#bannerTop {
+    position: absolute;
+    margin: 0 auto !important;
+}
+
+#lowerBanner {
+    padding-bottom: 20px !important;
+}
+
+#bannerBottom {
+    position: absolute;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#map {
+
+    height: 300px;
+    border: 1px solid #FF6600;
+    border-radius: 1%;
+
+}
+
+#gMaps {
+    padding-bottom: 20px !important;
+
+    text-align: center !important;
+}
+
+input, label {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: -5px;
+}
+
+#form1 {
+    background-color: #EBEBEB;
+    border-radius: 10px;
+    border: 1px solid #FF6600;
+    text-align: left;
+
+    font-family: 'Open Sans', 'Calibri Light', Calibri, Arial !important;
+    letter-spacing: 1px !important;
+    font-size: 20px !important;
+    color: #7C868D !important;
+}
+
+input {
+    width: 225px;
+    padding: 10px;
+    margin-right: 150px;
+    border: 1px groove;
+    border-radius: 8%;
+
+}
+
+.dropdown-menu {
+    padding: 0px;
+    overflow: hidden;
+}
+
+.infoText {
+    font-family: 'Open Sans', 'Calibri Light', Calibri, Arial !important;
+    letter-spacing: 1px !important;
+    font-size: 17px !important;
+    font-weight: bold !important;
+    text-align: left !important;
+    margin-top: -20px;
+    margin-left: -50px;
+}
+
+.contactText {
+    font-family: 'Open Sans', 'Calibri Light', Calibri, Arial !important;
+    letter-spacing: 1px !important;
+    font-size: 40px !important;
+    text-align: left !important;
+    font-weight: bold !important;
+    margin-top: -20px;
+    margin-left: -50px;
+}
+
+/* JUMBOTRONS */
+
+.jumbotron {
+    border: 5px solid #FF6600;
+    height: 150px;
+    width: 300px !important;
+    z-index: 1;
+    margin-top: 40px;
+    margin-left: 40px;
+    position: absolute;
+    display: block;
+    border-radius: 10px !important;
+}
+
+.jumboEmail {
+    border: 3px solid #FF6600;
+    border-radius: 10px;
+    margin-left: 100px;
+    font-family: 'Open Sans', 'Calibri Light', Calibri, Arial !important;
+    letter-spacing: 1px !important;
+    background-color: #EBEBEB;
+    text-align: center !important;
+    padding: 30px;
+}
+
+.jumboSkype {
+    border: 3px solid #FF6600;
+    border-radius: 10px;
+    margin-left: 125px;
+    background-color: #EBEBEB;
+    text-align: center !important;
+    padding: 30px;
+    font-family: 'Open Sans', 'Calibri Light', Calibri, Arial !important;
+    letter-spacing: 1px !important;
+}
+
+.jumboLiveChat {
+    border: 3px solid #FF6600;
+    border-radius: 10px;;
+    margin-left: 40px;
+    background-color: #EBEBEB;
+    text-align: center !important;
+    padding: 30px;
+    font-family: 'Open Sans', 'Calibri Light', Calibri, Arial !important;
+    letter-spacing: 1px !important;
+
+}
+
+.jumboText {
+    font-size: 20px !important;
+}
+
+.jumbotronFooter {
+    border: 5px solid #FF6600;
+    border-radius: 10px;
+    height: 150px;
+    width: 300px !important;
+    z-index: 100;
+    margin-top: 40px;
+    margin-left: 40px;
+    position: absolute;
+    background-color: #EBEBEB;
+}
+
+/* HEADER CONTENT */
+
+#banner {
+    padding-bottom: 20px;
+}
+
+#logo {
+    float: left;
+    padding: 20px;
+}
+
+#searchForm {
+    display: inline;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.input-group-addon {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+#loggedText {
+    margin-top: 10px;
+    font-family: 'Open Sans', 'Calibri Light', Calibri, Arial !important;
+    letter-spacing: 1px !important;
+    text-space: 5 !important;
+    color: black !important;
+    padding: 20px;
+}
+
+#searchBar {
+    width: 500px !important;
+    height: 50px !important;
+    background-color: white !important;
+    margin-top: 5px;
+    margin-right: -10px !important;
+    border-radius: 10px;
+}
+
+#accountBar {
+    float: right;
+}
+
+/* NAVIGATION BAR CONTENT */
+
+#navBar li:not(:last-child) {
+    list-style: none;
+    float: left;
+    border-right: 2px solid black;
+
+}
+
+#navBar {
+    background-color: #EBEBEB;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    position: center;
+    margin: 0 auto !important;
+}
+
+#navBar a {
+    font-family: 'Open Sans', 'Calibri Light', Calibri, Arial !important;
+    letter-spacing: 1px !important;
+    padding-right: 20px;
+    text-space: 5;
+    color: black;
+}
+
+#navBar li.selected a {
+    color: #FF6600 !important;
+    text-decoration: underline !important;
+}
+
+#navBar .nav > li {
+    float: none;
+    display: inline-block;
+    *display: inline; /* ie7 fix */
+    *zoom: 1; /* hasLayout ie7 trigger */
+    vertical-align: top;
+}
+
+a:hover {
+    text-decoration: underline !important;
+    color: #FF6600 !important;
+}
+
+/* FOOTER CONTENT */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.footer {
+
+    /* Set the fixed height of the footer here */
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #363636;
+    position: absolute;
+    width: 100%;
+}
+
+/* ---------- LIVE-CHAT ---------- */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* For IE 6/7 */
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+#live-chat {
+    bottom: 0;
+    font-size: 12px;
+    right: 24px;
+    position: fixed;
+    width: 300px;
+}
+
+#live-chat header {
+    background: #293239;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px;
+}
+
+#live-chat h4:before {
+    background: #1a8a34;
+    border-radius: 50%;
+    content: "";
+    display: inline-block;
+    height: 8px;
+    margin: 0 8px 0 0;
+    width: 8px;
+}
+
+#live-chat h4 {
+    font-size: 12px;
+}
+
+#live-chat h5 {
+    font-size: 10px;
+}
+
+#live-chat form {
+    padding: 24px;
+}
+
+#live-chat input[type="text"] {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 8px;
+    outline: none;
+    width: 234px;
+}
+
+.chat-message-counter {
+    background: #FF6600;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: none;
+    font-size: 12px;
+    font-weight: bold;
+    height: 28px;
+    left: 0;
+    line-height: 28px;
+    margin: -15px 0 0 -15px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 28px;
+}
+
+.chat-close {
+    background: #1b2126;
+    border-radius: 50%;
+    color: #fff;
+    display: block;
+    float: right;
+    font-size: 10px;
+    height: 16px;
+    line-height: 16px;
+    margin: 2px 0 0 0;
+    text-align: center;
+    width: 16px;
+}
+
+.chat {
+    background: #fff;
+}
+
+.chat-history {
+    height: 252px;
+    padding: 8px 24px;
+    overflow-y: scroll;
+}
+
+.chat-message {
+    margin: 16px 0;
+}
+
+.chat-message img {
+    border-radius: 50%;
+    float: left;
+}
+
+.chat-message-content {
+    margin-left: 56px;
+}
+
+.chat-time {
+    float: right;
+    font-size: 10px;
+}
+
+.chat-feedback {
+    font-style: italic;
+    margin: 0 0 0 80px;
+}
+
+/* ---------- BUTTONS ---------- */
+
+.btn-custom {
+    background: #00ff1e !important;
+    background-image: -webkit-linear-gradient(top, #00ff1e, #319410) !important;
+    background-image: -moz-linear-gradient(top, #00ff1e, #319410) !important;
+    background-image: -ms-linear-gradient(top, #00ff1e, #319410) !important;
+    background-image: -o-linear-gradient(top, #00ff1e, #319410) !important;
+    background-image: linear-gradient(to bottom, #00ff1e, #319410) !important;
+    -webkit-border-radius: 13px !important;
+    -moz-border-radius: 13px !important;
+    border-radius: 13px !important;
+    border-color: transparent !important;
+    font-family: "Abadi MT Condensed Extra Bold" !important;
+    color: #ffffff !important;
+    font-size: 25px !important;
+    height: 50px !important;
+    width: 130px !important;
+    text-decoration: none !important;
+    letter-spacing: 1px !important;
+    text-align: center !important;
+    margin-left: 50px !important;
+    margin-top: 20px !important;
+    white-space: normal!important;
+}
+
+.btn-custom:hover {
+    background: #24b504 !important;
+    background-image: -webkit-linear-gradient(top, #24b504, #00ff33) !important;
+    background-image: -moz-linear-gradient(top, #24b504, #00ff33) !important;
+    background-image: -ms-linear-gradient(top, #24b504, #00ff33) !important;
+    background-image: -o-linear-gradient(top, #24b504, #00ff33) !important;
+    background-image: linear-gradient(to bottom, #24b504, #00ff33) !important;
+    text-decoration: none !important;
+    white-space: normal!important;
+}
+
+.btn-success {
+    background: #FF8C29;
+    background-image: -webkit-linear-gradient(top, #FF8C29, #FF6600) !important;
+    background-image: -moz-linear-gradient(top, #FF8C29, #FF6600) !important;
+    background-image: -ms-linear-gradient(top, #FF8C29, #FF6600) !important;
+    background-image: -o-linear-gradient(top, #FF8C29, #FF6600) !important;
+    background-image: linear-gradient(to bottom, #FF8C29, #FF6600) !important;
+    -webkit-border-radius: 13px !important;
+    -moz-border-radius: 13px !important;
+    border-radius: 13px !important;
+    border-color: transparent !important;
+    font-family: "Abadi MT Condensed Extra Bold" !important;
+    color: #ffffff !important;
+    font-size: 25px !important;
+    height: 50px !important;
+    width: 155px !important;
+    text-decoration: none !important;
+    letter-spacing: 1px !important;
+    text-align: center !important;
+    padding-bottom: 50px !important;
+    white-space: normal!important;
+
+}
+
+.btn-success:hover {
+    background: #FF6600 !important;
+    background-image: -webkit-linear-gradient(top, #FF6600, #FF8C29) !important;
+    background-image: -moz-linear-gradient(top, #FF6600, #FF8C29) !important;
+    background-image: -ms-linear-gradient(top, #FF6600, #FF8C29) !important;
+    background-image: -o-linear-gradient(top, #FF6600, #FF8C29) !important;
+    background-image: linear-gradient(to bottom, #FF6600, #FF8C29) !important;
+    text-decoration: none !important;
+    border-color: transparent !important;
+    white-space: normal!important;
+
+}
+
+/* ---------- TEXT ---------- */
+
+#touchText {
+    margin-top: 25px !important;
+    font-size: 15px !important;
+
+}
+
+#beInTouchText {
+    font-size: 50px !important;
+    margin-top: -20px !important;
+}
+
+/* ---------- LISTS ---------- */
+
+.list-inline {
+    text-align: center !important;
+    font-size: 10px !important;
+    color: white !important;
+}
+
+.list-inline li:after {
+    content: " | " !important;
+    margin-left: 10px !important;
+    color: white !important;
+    text-align: center !important;
+}
+
+.list-inline li:last-child:after {
+    content: '' !important;
+}
+
+/* ---------- DROPDOWN STYLE ---------- */
+
+.styled-select {
+    background-color: white !important;
+    height: auto !important;
+    overflow: hidden !important;
+    width: auto !important;
+}
+
+.styled-select select {
+    background: white !important;
+    border: none !important;
+    font-size: 14px !important;
+    height: 29px !important;
+    padding: 5px !important; /* If you add too much padding here, the options won't show in IE */
+    width: auto !important;
+}
+
+.styled-select.slate {
+    background-color: white !important;
+    height: 34px !important;
+    width: auto !important;
+}
+
+.styled-select.slate select {
+    background-color: white !important;;
+    border: 1px solid #ccc !important;
+    font-size: 16px !important;
+    height: 34px !important;
+    width: auto !important;
+}
