@@ -29,7 +29,7 @@
     <div class="container-fluid" id="head">
         <div class="row">
             <div class="col-sm-4" id="logo">
-                <img src="images/logo.png" id="weaveCodeLogo">
+                <img src="images/logo.png" id="weaveCodeLogo" class="img-responsive">
             </div>
             <form class="col-sm-4" id="searchForm">
                 <div class="form-group col-sm-6">
@@ -54,7 +54,6 @@
         </div>
     </div>
 
-
     <!-- NAVIGATION BAR -->
     <div class="container-fluid" id="navBar">
         <div class="row">
@@ -71,35 +70,29 @@
             </ul>
         </div>
     </div>
-
 </header>
 
 <!-- BODY -->
 <body>
-
 <!-- LEFT DIV -->
-<div class="col-md-1" id="left"></div>
-
+<div class="col-lg-1" id="left"></div>
 <!-- CENTER DIV -->
-<div class="col-md-10" id="center">
-
+<div class="col-lg-10" id="center">
+    <!-- BANNER -->
     <div class="container-fluid" id="banner">
-
-        <!-- BANNER -->
         <div class="col-md-12 img-responsive">
-            <img src="images/banner-top.png" id="bannerTop">
+            <img src="images/banner-top.png" id="bannerTop" class="img-responsive">
             <!-- JUMBOTRON -->
-            <div class="col-md-6 jumbotron">
+            <div class="col-md-6 jumbotron img-responsive">
                 <p class="infoText">For More Information...</p>
                 <p class="contactText">Contact Us!</p>
             </div>
         </div>
-
     </div>
 
     <!-- TOP CONTENT -->
     <div class="container-fluid" id="topContent">
-        <div class="col-md-12">
+        <div class="col-md-12 img-responsive">
             <h1>Send us your details to request our latest brochure</h1>
         </div>
     </div>
@@ -124,15 +117,11 @@
                         }
                     })
                 });
-
-
             </script>
-
         </div>
 
         <!-- CONTACT FORM -->
         <div class="container-fluid col-md-8" id="form1">
-
             <form role="form" data-toggle="validator">
                 <div class="form-group col-sm-6">
                     <label for="firstName" class="control-label">First Name:</label>
@@ -215,8 +204,6 @@
                         <option value="November">November</option>
                         <option value="December">December</option>
                     </select>
-
-
                     <select name="DOBYear" class="styled-select slate" required>
                         <option>Year</option>
                         <option value="2010">2010</option>
@@ -266,77 +253,67 @@
                         <option value="1966">1966</option>
                         <option value="1965">1965</option>
                         <option value="1964">1964</option>
-
                     </select>
                 </div>
                 <div class="form-group col-sm-6">
                     <button type="button" class="btn btn-custom" data-toggle="modal" data-target="#submitModal">Submit</button>
                 </div>
             </form>
-
         </div>
     </div>
 
-    <!-- LOWER BANNET -->
-    <div class="container-fluid" id="lowerBanner">
-
+    <!-- LOWER BANNER -->
+    <div class="container-fluid col-md-12" id="lowerBanner">
+        <div class="row">
         <!-- LIVE CHAT -->
-        <div class="col-xs-3 jumboLiveChat">
-            <p class="jumboText">Start a Live Chat with one of our Tech Team</p>
-            <button type="button" class="btn btn-success">Start<img src="images/button-icon-livechat.png"></button>
+        <div class="col-xs-3 jumboLiveChat img-responsive">
+            <p class="jumboText">Start a Live Chat with one of our Tech Team
+            <button type="button" class="btn btn-success">Start&nbsp;<img src="images/button-icon-livechat.png"></button></p>
             <script>
+                $(document).ready(function() {
+                    $(".chat").hide();
+                });
                 $(function () {
-
                     $('.jumboLiveChat button').on('click', function () {
-
                         $('.chat').slideToggle(300, 'swing');
                         $('.chat-message-counter').fadeToggle(300, 'swing');
-
                     });
-
                     $('.chat-close').on('click', function (e) {
-
                         e.preventDefault();
                         $('#live-chat').fadeOut(300);
-
                     });
-
                 });
             </script>
         </div>
         <!-- SKYPE -->
-        <div class="col-xs-3 jumboSkype">
-            <p class="jumboText">Start a Skype call with one of our Sales Team</p>
+        <div class="col-xs-3 col-xs-offset-1 jumboSkype img-responsive">
+            <p class="jumboText">Start a Skype call with one of our Sales Team
             <a href="skype:echo123?call">
-                <button type="button" class="btn btn-success">Start<img src="images/button-icon-skype.png"></button>
-            </a>
+                <button type="button" class="btn btn-success">Start&nbsp;<img src="images/button-icon-skype.png"></button>
+            </a></p>
         </div>
         <!-- EMAIL -->
-        <div class="col-xs-3 jumboEmail">
-            <p class="jumboText">Send an Email to our Customer Service Team</p>
+        <div class="col-xs-3 col-xs-offset-1 jumboEmail img-responsive">
+            <p class="jumboText">Send an Email to our Customer Service Team
             <a href="mailto:test@email.com">
-                <button type="button" class="btn btn-success">Start<img src="images/button-icon-email.png"></button>
-            </a>
+                <button type="button" class="btn btn-success">Send&nbsp;<img src="images/button-icon-email.png"></button>
+            </a></p>
+        </div>
         </div>
     </div>
 
     <!-- BANNER BOTTOM -->
-
-    <div class="container-fluid" id="banner">
-
-        <div class="col-md-12">
-            <img src="images/banner-bottom.png" id="bannerBottom" class="img-responsive img-center">
+        <div class="container-fluid col-md-12 img-responsive">
+            <img src="images/banner-bottom.png" id="bannerBottom" class="img-responsive">
             <div class="col-md-6 jumbotronFooter">
                 <p id="touchText">We will be in touch</p>
                 <p id="beInTouchText">Thank you</p>
             </div>
         </div>
 
-    </div>
     <!-- Modal -->
     <div id="submitModal" class="modal fade" role="dialog">
         <div class="modal-dialog">
-
             <!-- Modal content-->
             <div class="modal-content">
                 <div class="modal-header">
@@ -354,10 +331,8 @@
         </div>
     </div>
 </div>
-
-
 <!-- RIGHT DIV -->
-<div class="col-md-1" id="right"></div>
+<div class="col-lg-1" id="right"></div>
 </body>
 
 
@@ -365,7 +340,6 @@
 <div class="container-fluid col-md-12">
     <div class="row">
         <footer class="footer">
-
             <br>
             <ul class="list-inline">
                 <li class="divider">Terms and Conditions</li>
@@ -374,100 +348,51 @@
             </ul>
             <hr>
             <br>
-
         </footer>
     </div>
 </div>
 
 <!-- LIVE CHAT CODE -->
 <div id="live-chat">
-
     <header class="clearfix">
-
-        <a href="#" class="chat-close">x</a>
-
         <h4>Live Chat: Talk to us!</h4>
-
         <span class="chat-message-counter">2</span>
-
     </header>
-
     <script>
-
         $(function() {
-
             $('#live-chat header').on('click', function() {
-
                 $('.chat').slideToggle(300, 'swing');
                 $('.chat-message-counter').fadeToggle(300, 'swing');
-
             });
-
-            $('.chat-close').on('click', function (e) {
-
-                e.preventDefault();
-                $('#live-chat').fadeOut(300);
-
-            });
-
         });
     </script>
-
     <div class="chat">
-
         <div class="chat-history">
-
             <div class="chat-message clearfix">
-
-
                 <div class="chat-message-content clearfix">
-
                     <span class="chat-time">13:35</span>
-
                     <h5>Tech Team:</h5>
-
                     We will be with you shortly...
-
                 </div> <!-- end chat-message-content -->
-
             </div> <!-- end chat-message -->
-
             <hr>
-
             <div class="chat-message clearfix">
-
                 <div class="chat-message-content clearfix">
-
                     <span class="chat-time">13:37</span>
-
                     <h5>Tech Team:</h5>
-
                     Whoopsie! Unfortunately our live chat is having a few minor issues! Please try again
                     later.
-
                 </div> <!-- end chat-message-content -->
-
             </div> <!-- end chat-message -->
-
             <hr>
-
-
         </div> <!-- end chat-history -->
-
-
         <form action="#" method="post">
-
             <fieldset>
-
                 <input type="text" placeholder="Type your message…" autofocus>
                 <input type="hidden">
-
             </fieldset>
-
         </form>
-
     </div> <!-- end chat -->
-
     <!-- end live-chat -->
 </div>
 

@@ -118,8 +118,8 @@ input {
 
 .jumbotron {
     border: 5px solid #FF6600;
-    height: 150px;
-    width: 300px !important;
+    height: 150px !important;
+    width: 290px !important;
     z-index: 1;
     margin-top: 40px;
     margin-left: 40px;
@@ -181,7 +181,7 @@ input {
 /* HEADER CONTENT */
 
 #banner {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 #logo {
